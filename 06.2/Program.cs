@@ -33,6 +33,7 @@ namespace _06._2
             IntClass value = new IntClass(10, 20);
             value.IntMethod();
 
+            Console.CursorVisible = false;
             Console.ReadKey();
         }
     }

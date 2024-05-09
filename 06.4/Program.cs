@@ -53,6 +53,7 @@ namespace _06._4
             Console.WriteLine("Конструктор з двома аргументами:");
             result3.PrintValues();
 
+            Console.CursorVisible = false;
             Console.ReadKey();
         }
     }

@@ -55,6 +55,7 @@ namespace _06._3
             Console.WriteLine("Виклик з аргументами Y та Z : ");
             pair.PrintValues();
 
+            Console.CursorVisible = false;
             Console.ReadKey();
         }
     }

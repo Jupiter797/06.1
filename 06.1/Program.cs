@@ -34,6 +34,7 @@ namespace _06._1
             Console.WriteLine($"Символ : {enteredСharacter}");
             Console.WriteLine($"Код символу : {symbol.GetCharCode()}");
 
+            Console.CursorVisible = false;
             Console.ReadKey();
         }
     }
